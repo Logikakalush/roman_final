@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffff00;
+    color: #03B9FF;
+}
+header p{   
+    text-align: center;
+    margin-left: -10px;
+}
+h1{ 
+    text-align: center;
+    margin-left: -40px;
+    font-family:'Courier New', Courier, monospace;
+}
+div{    
+    display: flex;
+}
+div h3{ 
+  width: 800px;
+  margin-top:40px;
+  margin-left: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+div img{    
+    margin-left: 0px ;
+    width: 150px;
+    height: 150px;
+    border: #03A6FF solid 5px;
+    box-shadow: 0 0 0px 0px #03A6FF;
+}
+.catalog{   
+ display: flex;
+ flex-wrap: wrap;
+ margin-right: 30px;
+}
+article img{    
+    width: 150px;
+    height: 150px;
+}
+
+article{    
+    margin-left: 30px;
+    border: 5px solid #03A6FF;
+    text-align: center;
+    box-shadow: 0 0 5px 1px #03A6FF;
+    padding-top:6px ;
+   width: 300px;
+   height: 300px;
+   background-color:#FFF300 ;
+}
+
+.reviews{   
+display: flex;
+}
+h1{ 
+  border:5px solid #FFF300;
+  border-radius: 20px;
+  background-color: #FFF300;
+}
+
+adres{
+    display: flex;
+   width: 200px;
+}
+.adres img{
+    border: 0px solid;
+    box-shadow: 0 0 0 0 0;
+}
+footer img{ 
+     display: flex;
+     margin-left: -8px;
+     margin-top: -10px ;
+     position: relative;
+     bottom:0px;
+     }
+
+footer{
+position: relative;
+bottom: 0px;
+}
+
+
+.abc{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.abc p{
+   width: 190px;
+}
+
+.catalog img:hover{
+    transform: scale(0.85);
+    border: 10px solid gainsboro;
+    transition: 2s ease-in;
+}
